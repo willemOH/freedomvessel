@@ -8,10 +8,17 @@
 		<link rel="stylesheet" href="styles/reset.css">
 		<link rel="stylesheet" href="styles/debug.css">
 		<style>
+article {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+article * { grid-column: 2 / 3; }
 
 		</style>
 	</head>
 	<body>
-		<h1>Freedom</h1>
+		<article>
+			<p>ARTICLE</p>
 	</body>
 </html>
