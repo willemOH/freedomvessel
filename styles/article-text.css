@@ -1,4 +1,4 @@
-h2, p:not(:last-child) { margin-bottom: 2.4rem; } /*2 lines space*/
+h2, p { margin-bottom: 2.4rem; } /*2 lines space*/
 h1   { font: 700 2.0rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }
 h2   { font: 400 1.5rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }
  time { font: 700 1.0rem/1.2 "Roboto"; color: hsl(168,  53%, 43%); }
