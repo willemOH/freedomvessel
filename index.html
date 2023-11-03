@@ -12,9 +12,19 @@
 		<link rel="stylesheet" href="styles/article-figure.css">
 		<link rel="stylesheet" href="styles/article-text.css">
 		<style>
+banner {	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 0.5in 0.5in;
+	background-color: hsl(37, 100%, 62%); 
 		</style>
 	</head>
 	<body>
+		<banner>
+			<h1 style="grid-column:1/2;">FREEDOM VESSEL</h1>
+	    		<div style="grid-column:3/4;" class="buttons">
+				<h3><a href="">support the journey!<img src="images/venmo-icon.svg"></a></h3>
+	    		</div>		
+		</banner>
 	
 	        <article id="What?">
 			<h1><a href="#What?">What <em>is</em> that?</a></h1>
@@ -50,9 +60,5 @@
 
 		
 
-	    <div class="buttons">
-		    <a href=""><img src="images/venmo-icon.svg"></a>
-		    <a href=""><img src="images/venmo-icon.svg"></a>
-	    </div>		
 	</body>
 </html>
