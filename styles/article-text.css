@@ -4,6 +4,7 @@ h2   { font: 400 1.5rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }
  time { font: 700 1.0rem/1.2 "Roboto"; color: hsl(168,  53%, 43%); }
 h3   { font: 700 1.0rem/1.2 "Roboto"; color: hsl(168,  53%, 43%); }
 p    { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000,  0%, 33%); }
+figcaption p { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000,  0%, 63%); }
 		
 a { box-shadow: inset 0 -0.15em hsl(55,  100%, 75%); } /*hsl(250,  100%, 33%) purple*/
 @media (max-width: 8.5in) { :root { font-size: 18px; } }
