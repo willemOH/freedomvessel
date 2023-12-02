@@ -2,7 +2,7 @@ h2, p { margin-bottom: 2.4rem; } /*2 lines space*/
 /*h1   { font: 700 2.0rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }*/
 h1   { font: normal 2.0rem/1.2 "alexandreregular"; color: hsl(000,0%, 33%); }
 h2   { font: 400 1.5rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }
-time { font: 700 1.0rem/1.2 "Roboto"; color: hsl(168,  53%, 43%); }
+time { font: 700 1.0rem/1.2 "Roboto"; color: hsl(100, 100%, 80%); }
 h3   { font: 700 1.0rem/1.2 "Roboto"; color: hsl(168,  53%, 43%); }
 p    { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000,  0%, 33%); }
 figcaption p { font: 400 1.0rem/1.5 "Roboto"; color: hsl(000,  0%, 63%); }
