@@ -4,4 +4,7 @@
 	--green: hsl(100, 100%, 80%);
 	--purple:hsl(250,100%,93%);
 	--purpledark:hsl(250,100%,83%);
+	--gray: hsl(000,0%, 33%);
+	--brown: hsl(30, 100%, 30%);
+	--brownlight: hsla(30, 100%, 30%, .5);
 }
