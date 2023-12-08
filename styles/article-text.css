@@ -1,7 +1,7 @@
 h2, p { margin-bottom: 2.4rem; margin-top: 1rem;} /*2 lines space*/
 
 /*h1   { font: 700 2.0rem/1.2 "Roboto"; color: hsl(000,  0%, 33%); }*/
-h6 { font: normal 2.0rem/1.2 "alexandreregular"; color: var(--yellow);} /*id removed padding unknown reasons therefore incorrent use of h6*/
+h6 { font: normal 2.0rem/1.2 "alexandreregular"; color: var(--yellow);} /*id removed padding unknown reasons therefore incorrect use of h6*/
 h1   { font: normal 2.0rem/1.2 "alexandreregular"; color: var(--brown); }
 h2   { font: 400 1.3rem/1.2 "Roboto"; color: var(--brown); }
 time { font: 700 1.0rem/1.2 "Roboto"; color: var(--green); }
