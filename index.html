@@ -18,7 +18,8 @@ banner {	display: grid;
  	
 }
 timeline {	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%) fit-content(100%);
+	grid-gap: 2em;
 	padding: 0.1in 0.1in;
 	background-color: var(--green); 
 }
@@ -36,12 +37,12 @@ timeline {	display: grid;
 	    		</div>		
 		</banner>
 		<timeline>
-		<h3 style="grid-column:1/2;"><a href="#What?">What is that?</a></h3>
-		<h3 style="grid-column:3/4;"><a href="#day1">Day 1</a></h3>
-		<h3 style="grid-column:4/5;"><a href="#day2">Day 2</a></h3>
-		<h3 style="grid-column:5/6;"><a href="#night2">Night 2</a></h3>
-		<h3 style="grid-column:6/7;"><a href="#important">day 3</a></h3>
-		<h3 style="grid-column:7/8;"><a href="#slabtop">In the field</a></h3>
+		<h3 style="grid-column:1/2;text-align: center;"><a href="#What?">What is that?</a></h3>
+		<h3 style="grid-column:2/3;text-align: center;"><a href="#day1">Day 1</a></h3>
+		<h3 style="grid-column:3/4;text-align: center;"><a href="#day2">Day 2</a></h3>
+		<h3 style="grid-column:4/5;text-align: center;"><a href="#night2">Night 2</a></h3>
+		<h3 style="grid-column:5/6;text-align: center;"><a href="#important">Day 3</a></h3>
+		<h3 style="grid-column:6/7;"><a href="#slabtop">In the field</a></h3>
 		</timeline>
 		<article id="slabtop">
 			<h1><a href="#slabtop">In the field</a></h1>
